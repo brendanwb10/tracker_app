@@ -7,12 +7,12 @@
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	"features": {
-		"ghcr.io/devcontainers/features/node:1": { "version": "18" },
-		"ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {},
-		"ghcr.io/devcontainers-contrib/features/redis-homebrew:1": {},
-		"ghcr.io/devcontainers-contrib/features/homebrew-package:1": { "icu4c" }
-	},
+	// "features": {
+	// 	"ghcr.io/devcontainers/features/node:1": { "version": "18" },
+	// 	"ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {},
+	// 	"ghcr.io/devcontainers-contrib/features/redis-homebrew:1": {},
+	// 	"ghcr.io/devcontainers-contrib/features/homebrew-package:1": { "icu4c" }
+	// },
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// This can be used to network with other containers or the host.
