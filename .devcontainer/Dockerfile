@@ -8,6 +8,9 @@ RUN gem install rails webdrivers
 ENV RAILS_DEVELOPMENT_HOSTS=".githubpreview.dev,.preview.app.github.dev,.app.github.dev"
 
 # [Optional] Uncomment this section to install additional OS packages.
+# RUN curl -fsSL -o install.sh https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+# RUN /bin/bash install.sh
+# RUN brew install icu4c
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
