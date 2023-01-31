@@ -29,7 +29,7 @@ development:
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  #username: untitled_application-app
+  #username: tracker_app-app
 
   # The password associated with the postgres role (username).
   #password:
@@ -80,7 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: untitled_application_production
-  username: untitled_application
-  password: <%= ENV['UNTITLED_APPLICATION_DATABASE_PASSWORD'] %>
+  database: tracker_app_production
+  username: tracker_app
+  password: <%= ENV['TRACKER_APP_DATABASE_PASSWORD'] %>
   url: <%= ENV['DATABASE_URL'] %>
