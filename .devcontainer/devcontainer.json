@@ -18,7 +18,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "bundle install && rake db:setup",
-	"postCreateCommand": "brew install icu4c"
+	"postCreateCommand": "brew install icu4c && brew install redis"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
