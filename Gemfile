@@ -173,5 +173,13 @@ gem "pry"
 # YOUR GEMS
 # You can add any Ruby gems you need below. By keeping them separate from our gems above, you'll avoid the likelihood
 # that you run into a merge conflict in the future.
-
+group :development do
+  gem "strong_migrations"
+  gem 'letter_opener_web', '~> 2.0'
+  gem "rubycritic", require: false
+  gem "pronto", require: false
+  gem "pronto-standardrb", require: false
+  gem "pronto-brakeman", require: false
+  gem "pronto-fasterer", require: false
+end
 # 🚅 super scaffolding will insert new oauth providers above this line.
