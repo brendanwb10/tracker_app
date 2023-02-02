@@ -177,5 +177,9 @@ group :development do
   gem "strong_migrations"
   gem 'letter_opener_web', '~> 2.0'
   gem "rubycritic", require: false
+  gem "pronto", require: false
+  gem "pronto-standardrb", require: false
+  gem "pronto-brakeman", require: false
+  gem "pronto-fasterer", require: false
 end
 # 🚅 super scaffolding will insert new oauth providers above this line.
