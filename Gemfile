@@ -176,5 +176,6 @@ gem "pry"
 group :development do
   gem "strong_migrations"
   gem 'letter_opener_web', '~> 2.0'
+  gem "rubycritic", require: false
 end
 # 🚅 super scaffolding will insert new oauth providers above this line.
