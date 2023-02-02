@@ -530,6 +530,8 @@ GEM
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     stripe (8.1.0)
+    strong_migrations (1.4.2)
+      activerecord (>= 5.2)
     thor (1.2.1)
     thread-local (1.1.0)
     timeout (0.3.1)
@@ -623,6 +625,7 @@ DEPENDENCIES
   sprockets-rails
   standard
   stimulus-rails
+  strong_migrations
   turbo-rails
   tzinfo-data
   web-console
