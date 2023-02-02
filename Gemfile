@@ -175,5 +175,6 @@ gem "pry"
 # that you run into a merge conflict in the future.
 group :development do
   gem "strong_migrations"
+  gem 'letter_opener_web', '~> 2.0'
 end
 # 🚅 super scaffolding will insert new oauth providers above this line.

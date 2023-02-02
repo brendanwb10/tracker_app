@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   draw "devise"
   draw "sidekiq"
 
+  mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.development?
   # This is helpful to have around when working with shallow routes and complicated model namespacing. We don't use this
   # by default, but sometimes Super Scaffolding will generate routes that use this for `only` and `except` options.
   # TODO Would love to get this out of the application routes file.
