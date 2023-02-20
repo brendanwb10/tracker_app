@@ -19,9 +19,5 @@ class Team < ApplicationRecord
 
   # 🚅 add delegations above.
 
-  def help
-    all.map{ |x| x.blank? }
-    
-  end
   # 🚅 add methods above.
 end

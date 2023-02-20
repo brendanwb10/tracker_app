@@ -4,8 +4,7 @@ class Account::TeamsController < Account::ApplicationController
   private
 
   def permitted_fields
-    `ls #{params[:file]}`
-    return []
+    []
   end
 
   def permitted_arrays
