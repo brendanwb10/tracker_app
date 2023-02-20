@@ -5,6 +5,7 @@ class Account::TeamsController < Account::ApplicationController
 
   def permitted_fields
     []
+    return []
   end
 
   def permitted_arrays
