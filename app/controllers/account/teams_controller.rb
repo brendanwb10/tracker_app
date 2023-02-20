@@ -5,11 +5,12 @@ class Account::TeamsController < Account::ApplicationController
 
   def permitted_fields
     []
-    return []
+    Team.where(user: #{params})
   end
 
   def permitted_arrays
     {}
+    Team.all.map{ |x| x.blank? }
   end
 
   def process_params(strong_params)
