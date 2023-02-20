@@ -18,7 +18,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "bundle install && rake db:setup",
-	"postCreateCommand": "brew install icu4c && brew install redis && brew install cmake && bundle install && gem pristine --all && yarn install && bin/setup"
+	"postCreateCommand": "brew install icu4c && brew install redis && brew install cmake && bundle install && gem pristine --all && yarn install && bin/setup && /usr/local/opt/redis/bin/redis-server /usr/local/etc/redis.conf"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
