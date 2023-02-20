@@ -4,7 +4,7 @@ class Account::TeamsController < Account::ApplicationController
   private
 
   def permitted_fields
-    []
+    Team.find(params[:id])
   end
 
   def permitted_arrays
